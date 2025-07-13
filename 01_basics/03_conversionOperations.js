@@ -31,7 +31,30 @@ let valueInNumber = Number(score)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+// *************** Opration ************
+
+// let Value = 3
+// let negValue = -Value
+// console.log(negValue);
+
+let s1 = "Hello"
+let s2 = " aadarsh"
+
+let s3 = s1+s2
+console.log(s3);
+
+// console.log("1" + 1);
+// console.log(1 + "1");
+// console.log("1" + 2 + 2);
+// console.log(2 + 2 + "1");
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
 
 
