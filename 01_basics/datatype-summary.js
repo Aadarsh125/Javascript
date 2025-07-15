@@ -26,9 +26,55 @@ let myObj = {
     age: 20,
 }
 
-const myFun = function(){
-    console.log("Hello World");
+// const myFun = function(){
+//     console.log("Hello World");
     
+// }
+
+// console.log(typeof anotherid);
+
+
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+//        Object  =>  object
+
+// console.log(Object.prototype.toString);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap(Non-primitive)
+
+// let myYouTubename = "codewithaadarsh"
+// let anotherName = myYouTubename
+
+// anotherName = "chaiorcode"
+
+// console.log(myYouTubename);
+// console.log(anotherName);
+
+let userOne = {
+    email : "user1@gmail.com",
+    upi : "user1@upi"
 }
 
-console.log(typeof anotherid);
+let userTwo = {
+    email : "usertwo@gmial.com",
+    upi : "usertwo@upi"
+}
+
+userTwo = userOne
+
+userTwo.email = "aadarsh@123"
+
+console.log(userOne.email);
+console.log(userTwo.email);
