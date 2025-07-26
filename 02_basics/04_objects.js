@@ -48,11 +48,25 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(Object.hasOwnProperty('isLogged')); // check krta hai ki vo property object me exist bhi krti hai ya nhi
+// console.log(Object.hasOwnProperty('isLogged')); // check krta hai ki vo property object me exist bhi krti hai ya nhi
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "aadarsh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course// Just change the name with the help of (:)
+
+// console.log(courseInstructor);
+console.log(instructor);
+
 
